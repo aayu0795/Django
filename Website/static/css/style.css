@@ -2,14 +2,14 @@
 @import url(./fonts.css);
 
 
-/* css variables */ 
+/* css variables */
 @import url(./partials/_variables.css);
 
-/* import global styling */ 
+/* import global styling */
 @import url(./partials/_global.css);
 
 
-/* start navigation */ 
+/* start navigation */
 
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
@@ -41,14 +41,9 @@
 }
 
 
-/* end navigation */ 
+/* end navigation */
 
-/* Banner Area */ 
-
-.site-main .site-banner {
-    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
-}
-
+/* Banner Area */
 .site-main .site-banner .site-title h3{
     padding-top: 35%;
     font-weight: 500;
@@ -79,9 +74,9 @@
 
 
 
-/* End Banner Area */ 
+/* End Banner Area */
 
-/* Start About Area */ 
+/* Start About Area */
 
 .site-main .about-area{
     padding: 8rem 5rem;
@@ -97,10 +92,10 @@
     padding: .4rem 0;
 }
 
-/* End About Area */ 
+/* End About Area */
 
 
-/* Start Brand Area */ 
+/* Start Brand Area */
 
 .site-main .brand-area{
     padding: 1rem 20rem;
@@ -145,7 +140,6 @@
 }
 
 .site-main .brand-area .experience-area .years-area{
-    background: url(../img/client-info-bg.png) no-repeat 45px 20px;
     padding: 2rem 0;
     width: 40rem;
     height: 18rem;
@@ -177,9 +171,9 @@
     padding-left: 10rem;
 }
 
-/* End Brand Area */ 
+/* End Brand Area */
 
-/* Services Area */ 
+/* Services Area */
 
 .site-main .services-area{
     padding: 7rem 2rem;
@@ -207,10 +201,10 @@
 
 
 
-/* End Services Area */ 
+/* End Services Area */
 
 
-/* Project Area */ 
+/* Project Area */
 
 .site-main .project-area{
     padding: 4rem 0;
@@ -236,10 +230,10 @@
 }
 
 
-/* End Project Area */ 
+/* End Project Area */
 
 
-/* About Me */ 
+/* About Me */
 
 .site-main .about-area .about-title p{
     padding: 1rem 7rem;
@@ -281,12 +275,11 @@
 
 
 
-/* End About Me */ 
+/* End About Me */
 
-/* Subscribe me */ 
+/* Subscribe me */
 
 .site-main .subscribe-us-area .subscribe{
-    background: url(../img/subscribe-bg.png) no-repeat;
     padding: 10rem 0;
     margin: 3rem auto;
 }
@@ -326,7 +319,7 @@
 
 footer.footer-area{
     padding: 5rem 0;
-    background: url(../img/footer-bg.png) no-repeat;
+    background: url(../images/footer-bg.png) no-repeat;
 }
 
 footer.footer-area .social h5{

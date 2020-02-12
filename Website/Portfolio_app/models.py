@@ -5,7 +5,6 @@ from django.db import models
 
 class Project(models.Model):
     name = models.CharField(max_length=1000)
-    description = models.TextField(max_length=10000)
     technology_used = models.CharField(max_length=1000)
     thumbnail = models.ImageField(upload_to='pics')
     link = models.CharField(max_length=1000)
