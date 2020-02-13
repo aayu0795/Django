@@ -13,14 +13,16 @@
 
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
+
 }
 
 .header_area .main-menu .navbar{
     padding: 1rem 20rem ;
+    height: 50px;
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
+    font: normal 300 15px/2px var(--roboto);
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
@@ -45,7 +47,7 @@
 
 /* Banner Area */
 .site-main .site-banner .site-title h3{
-    padding-top: 35%;
+    padding-top: 20%;
     font-weight: 500;
 }
 
@@ -68,7 +70,7 @@
 }
 
 .site-main .site-banner .banner-image > img{
-    padding: 7rem 0;
+    padding: 4rem 0;
     width: 90rem;
 }
 
@@ -315,7 +317,6 @@
 
 footer.footer-area{
     padding: 5rem 0;
-    background: url(../images/footer-bg.png) no-repeat;
 }
 
 footer.footer-area .social h5{
