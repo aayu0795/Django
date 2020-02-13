@@ -1,10 +1,27 @@
 from django.db import models
 
-# Create your models here.
-
 
 class Project(models.Model):
     name = models.CharField(max_length=1000)
     technology_used = models.CharField(max_length=1000)
-    thumbnail = models.ImageField(upload_to='pics')
+    thumbnail = models.ImageField(upload_to='projects')
     link = models.CharField(max_length=1000)
+
+
+class Skill(models.Model):
+    name = models.CharField(max_length=100)
+    thumbnail = models.ImageField(upload_to='skills')
+
+
+class User(models.Model):
+    name = models.CharField(max_length=100)
+    mobile_number = models.CharField(max_length=12)
+    experience = models.IntegerField()
+    designation = models.CharField(max_length=1000)
+    description1 = models.TextField(max_length=1000)
+    description2 = models.TextField(max_length=1000)
+    get_cv = models.CharField(max_length=1000)
+    download_cv = models.CharField(max_length=1000)
+    git_hub = models.CharField(max_length=1000)
+    linkdin = models.CharField(max_length=1000)
+    instagram = models.CharField(max_length=1000)
