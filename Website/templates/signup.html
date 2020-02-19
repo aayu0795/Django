@@ -15,12 +15,15 @@
                     <div class="owl-carousel owl-theme">
                         <img src="{% static 'images/undraw_fingerprint_swrc.svg' %}" alt="" class="login_img">
                     </div>
+                    {% for message in messages%}
+                        <p>{{message}}</p>
+                    {% endfor %}
 
                     <!-- /Owl-Carousel -->
 
                 </div>
                 <div class="col login">
-                    <a href="/login"><button type="button" class="btn btn-signup">Already a member ? Login</button></a>
+                    <a href="/login"><button type="button" class="btn btn-signup">Already a member ? Sign in</button></a>
                     <form action="signup" method="post">
                         {% csrf_token %}
                         <div class="form-group">
