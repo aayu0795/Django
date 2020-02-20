@@ -8,13 +8,13 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12 site-title">
                         <h3 class="title-text">Hey</h3>
-                        <h1 class="title-text text-uppercase">I am {{user.name}}</h1>
-                        <h4 class="title-text text-uppercase">{{user.designation}}</h4>
+                        <h1 class="title-text text-uppercase">I am {{my.name}}</h1>
+                        <h4 class="title-text text-uppercase">{{my.designation}}</h4>
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap">
                                 <button type="button" class="btn button primary-button mr-4 text-uppercase">hire
                                     me</button>
-                                <a href="{{user.get_cv}}"><button type="button" class="btn button secondary-button text-uppercase">Get cv</button></a>
+                                <a href="{{my.get_cv}}"><button type="button" class="btn button secondary-button text-uppercase">Get cv</button></a>
                             </div>
                         </div>
                     </div>
@@ -44,17 +44,13 @@
                         </h2>
                         <div class="paragraph py-4 w-75">
                             <p class="para">
-                                {{user.description1}}Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rerum iure obcaecati vel
-                                possimus officia maiores perferendis ut! Quos, perspiciatis.
+                                {{my.description1}}
                             </p>
                             <p class="para">
-                                {{user.description2}}It is a long established fact that a reader will be distracted by the readable content
-                                of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
-                                more-or-less normal distribution of letters, as opposed to using 'Content here, content
-                                here
+                                {{my.description2}}
                             </p>
                         </div>
-                        <a href="{{user.download_cv}}"><button type="button" class="btn button primary-button text-uppercase">Download cv</button></a>
+                        <a href="{{my.download_cv}}"><button type="button" class="btn button primary-button text-uppercase">Download cv</button></a>
                     </div>
                 </div>
             </div>
@@ -81,7 +77,7 @@
                     <div class="col-xl-6 col-lg-12 col-md-12">
                         <div class="experience-area">
                             <div class="d-flex flex-row years-area">
-                                <h2 class="p-3 years">{{user.experience}}</h2>
+                                <h2 class="p-3 years">{{my.experience}}</h2>
                                 <h2>
                                     <span>Years</span>
                                     <span>Working</span>
@@ -92,7 +88,7 @@
                                 <span><i class="fas fa-phone-alt fa-3x px-3"></i></span>
                                 <div class="call-now">
                                     <a class="text-uppercase h4 font-roboto">Call Now</a>
-                                    <span class="font-roboto py-2">(+91)-{{user.mobile_number}}</span>
+                                    <span class="font-roboto py-2">(+91)-{{my.mobile_number}}</span>
                                 </div>
                             </div>
                             <div class="bg-panel"></div>

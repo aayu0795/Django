@@ -8,5 +8,5 @@ def index(request):
     projects = Project.objects.all()
     skills = Skill.objects.all()
     user = User.objects.all()
-    return render(request, 'index.html', {'projects': projects, 'skills': skills, 'user': user[0]})
+    return render(request, 'index.html', {'projects': projects, 'skills': skills, 'my': user[0]})
 

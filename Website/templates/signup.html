@@ -16,15 +16,15 @@
                         <img src="{% static 'images/undraw_fingerprint_swrc.svg' %}" alt="" class="login_img">
                     </div>
                     {% for message in messages%}
-                        <p>{{message}}</p>
+                        <h3 style="text-align: center; color:red; ">{{message}}</h3>
                     {% endfor %}
 
                     <!-- /Owl-Carousel -->
 
                 </div>
                 <div class="col login">
-                    <a href="/login"><button type="button" class="btn btn-signup">Already a member ? Sign in</button></a>
-                    <form action="signup" method="post">
+                    <a href="/account/login"><button type="button" class="btn btn-signup">Already a member ? Sign in</button></a>
+                    <form action="/account/signup/" method="post">
                         {% csrf_token %}
                         <div class="form-group">
                             <input type="text" placeholder="First name" class="form-input" name="first_name">
